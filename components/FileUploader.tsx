@@ -7,7 +7,7 @@ import {
     RocketIcon,
     SaveIcon,
 } from 'lucide-react';
-import useUpload, { Status, StatusText } from "@/hooks/useUpload";
+import { useUpload, StatusText } from "@/hooks/useUpload";
 import { useRouter } from "next/navigation";
 
 function FileUploader() {
